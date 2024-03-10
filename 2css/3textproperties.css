@@ -1,0 +1,31 @@
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+}
+
+.title {
+    color: #fe4c00;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.text {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #ed00fe;
+}
+
+.text2 {
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 5px;
+}
+
+.text3 {
+    word-spacing: 10px;
+    white-space: nowrap;
+}
