@@ -1,0 +1,19 @@
+.greet__title {
+    font-size: 5rem;
+    margin-bottom: 50px;
+}
+.greet__text {
+    font-size: 2rem;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+/*-----------------------------------------*/
+
+.greet__text-1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+}
