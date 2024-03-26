@@ -13,6 +13,7 @@ html, body {
     max-width: 1260px;
     padding: 0 15px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .button {
@@ -60,6 +61,10 @@ html, body {
 
 .header {
     font-weight: 700;
+    background: url("../images/decorations/shapes-bg.svg") 50% 50% / cover no-repeat, linear-gradient(55.95deg, rgba(255, 63, 58, .2) 0%, rgba(247, 94, 5, .2) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__top {
@@ -141,17 +146,22 @@ html, body {
 /*------------------------------------------------------*/
 
 .header__body {
-
+    flex-grow: 1;
 }
 
 
 .header__body-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .header__main {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: #1e212c;
+    margin: auto 0;
 }
 
 .header__content {
@@ -195,8 +205,30 @@ html, body {
     margin-right: 0;
 }
 
-.header__img {
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1e212c;
+    margin-bottom: 80px;
 }
 
-.header__row {
+.header__row > span {
+    background-color: #FF3F3A;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.header__row-item {
+    display: flex;
+    align-items: center;
+}
+
+.header__row-item span {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-right: 12px;
 }
