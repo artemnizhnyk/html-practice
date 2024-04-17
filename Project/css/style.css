@@ -327,7 +327,7 @@ html, body {
 }
 
 .about__image-box {
-
+    border-radius: 4px;
 }
 
 .about__image-box img {
@@ -360,3 +360,62 @@ html, body {
     color: #FF3F3A;
     margin-right: 16px;
 }
+
+/*------------------------------------------------------*/
+
+.directions {
+}
+
+.directions__inner {
+}
+
+.directions__heading {
+    margin-bottom: 90px;
+}
+
+.heading__subtitle {
+}
+
+.heading__title {
+}
+
+.directions__body {
+}
+
+.directions__filter-box {
+}
+
+.directions__filter-item {
+}
+
+.directions__filter-btn {
+}
+
+.directions__list {
+}
+
+.directions__list-item {
+}
+
+.direction__list-link {
+}
+
+.directions__image-box {
+}
+
+.directions__link-content {
+}
+
+.directions__link-tag {
+}
+
+.directions__link-text {
+}
+
+.directions__link-btn {
+}
+
+.directions__list-item--empty {
+}
+
+/*------------------------------------------------------*/
